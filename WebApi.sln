@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{216DBBA3-A080-4FC6-A417-0C2CA4F5EBF4}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CodeDatabase", "CodeDatabase\CodeDatabase.sqlproj", "{CAF44234-1790-4747-B58F-FF9BCFDFDAC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeModel", "CodeModel\CodeModel.csproj", "{400E7328-D600-446A-8E6A-71B42C697241}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216DBBA3-A080-4FC6-A417-0C2CA4F5EBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216DBBA3-A080-4FC6-A417-0C2CA4F5EBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216DBBA3-A080-4FC6-A417-0C2CA4F5EBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216DBBA3-A080-4FC6-A417-0C2CA4F5EBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF44234-1790-4747-B58F-FF9BCFDFDAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF44234-1790-4747-B58F-FF9BCFDFDAC0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CAF44234-1790-4747-B58F-FF9BCFDFDAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF44234-1790-4747-B58F-FF9BCFDFDAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF44234-1790-4747-B58F-FF9BCFDFDAC0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{400E7328-D600-446A-8E6A-71B42C697241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400E7328-D600-446A-8E6A-71B42C697241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400E7328-D600-446A-8E6A-71B42C697241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400E7328-D600-446A-8E6A-71B42C697241}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54340068-1D10-4A10-B198-6DCA7F97BD63}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/joyarimando
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CodeDatabase\\CodeDatabase.sqlproj
+		SccProjectName1 = CodeDatabase
+		SccLocalPath1 = CodeDatabase
+		SccProjectUniqueName2 = CodeModel\\CodeModel.csproj
+		SccProjectName2 = CodeModel
+		SccLocalPath2 = CodeModel
+		SccProjectUniqueName3 = WebApi\\WebApi.csproj
+		SccProjectName3 = WebApi
+		SccLocalPath3 = WebApi
+	EndGlobalSection
+EndGlobal
